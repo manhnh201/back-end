@@ -1,0 +1,5 @@
+.git
+deploy
+dist
+node_modules
+test

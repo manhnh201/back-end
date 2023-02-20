@@ -1,0 +1,15 @@
+@startuml report-job
+participant job as j
+database db as db
+participant kbsv_messaging_platform_be as kmp
+
+loop once per minute
+    j -> db
+    note right
+        - xác định thời gian cần thống kê
+        - sql: select * from tbl_alert_queue_statistic order by id desc limit 1
+    end note
+end
+
+
+@enduml

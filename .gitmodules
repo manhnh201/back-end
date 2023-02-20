@@ -1,0 +1,12 @@
+[submodule "src/common-module"]
+	path = src/common-module
+	url = https://bitbucket.org/tranquangtu91/nestjs-common-module
+[submodule "src/admin-module"]
+	path = src/admin-module
+	url = https://bitbucket.org/tranquangtu91/nestjs-admin-module
+[submodule "src/ldap-module"]
+	path = src/ldap-module
+	url = https://bitbucket.org/tranquangtu91/nestjs-ldap-module
+[submodule "auto-deployment"]
+	path = auto-deployment
+	url = https://bitbucket.org/tranquangtu91/auto-deployment
